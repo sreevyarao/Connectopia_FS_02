@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Connectopia – Login</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body class="login-page">
+<div class="login-card">
+  <div class="login-logo">Connectopia</div>
+  <p class="login-sub">CRM Admin Portal</p>
+  <div id="login-err" class="alert-error" style="display:none"></div>
+  <div class="form-group">
+    <label>Username</label>
+    <input id="l-user" type="text" placeholder="admin" autocomplete="username"/>
+  </div>
+  <div class="form-group">
+    <label>Password</label>
+    <input id="l-pass" type="password" placeholder="••••••••" autocomplete="current-password"/>
+  </div>
+  <button id="login-btn" class="btn btn-primary btn-full" onclick="doLogin()">Sign In</button>
+</div>
+<script src="js/auth.js"></script>
+</body>
+</html>
