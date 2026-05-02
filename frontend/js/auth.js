@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000';
+const API = 'https://connectopia-fs-02.onrender.com';
 
 // Redirect unauthenticated users away from dashboard
 if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/') {
