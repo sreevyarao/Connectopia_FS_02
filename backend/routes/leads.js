@@ -1,6 +1,6 @@
 const express = require('express');
 const router  = express.Router();
-const Lead    = require('../models/Lead');
+const Lead    = require('../models/lead');
 const protect = require('../middleware/auth');
 
 // All routes protected
