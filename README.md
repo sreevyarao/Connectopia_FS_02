@@ -16,7 +16,8 @@ A full-stack CRM web application to manage client leads efficiently.
 - Database: MongoDB
 
 📸 Screenshots
-(Add screenshots here)
+-Screenshots/login_page.png
+-Screenshots/main_page.png
 
 🔧 Setup
 1. Clone the repo
